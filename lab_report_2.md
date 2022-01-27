@@ -49,3 +49,10 @@ Here are the screenshots of comparison between failure and success.
 [17]: 7.png
 
 As we can see, if we miss the break part, we will go into an infinite loop again as currentIndex remains 0 and cannot get out of the loop. So we add this break line to break the loop if there is no more __[]()__ in the file.
+
+# 3.
+
+This is the screenshot of the code change diff from Github. 
+![Image][18]
+
+[18]: 8.png
