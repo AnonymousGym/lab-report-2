@@ -69,3 +69,6 @@ Here is the screenshot of failure.
 ![Image][19]
 
 [19]: 9.png
+
+Here in test 3 and 4 we have the IndexOutOfBoundsException. They have the same symptom. The main reason is in test-file3.md and test-file4.md.
+In these files, there is no "()", so the program will crash when it cannot find the parentheses. We can also use break to exit when we cannot find parentheses to solve the problem.
